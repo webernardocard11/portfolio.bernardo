@@ -1,0 +1,59 @@
+header {                           /* Cabeçalho */
+    background-color: #001223;
+    height: 80px;
+    width: 100%;
+    border-bottom: 3px solid #0359FF;
+    padding: 10px 20px;
+}
+
+img {                               /* Logo */
+    height: 60px;
+    margin-top: 9px;
+    margin-left: 31px;
+    border: 1px solid #00F0FF;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+nav {
+    margin-left: 60%;
+    margin-top: -64px;
+}
+
+a {                                 /* MENU */
+    display: inline-flex;
+    align-items: center;
+    color: #0359FF;
+    background-color: transparent;
+
+    border: 1px solid #00F0FF;
+    box-sizing: border-box;
+
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Fira Code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before {
+    content: "";
+    background-color: #0359FF;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button {                           /* Download CV */
+    display: inline-block;
+    color: #03FF4A;
+    background-color: #002459;
+    Height: 60px;
+    border: none;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-right: 0;
+}
